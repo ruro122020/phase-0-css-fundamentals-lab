@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+
+* {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  flex-direction: row;
+  column-gap: 3px;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  text-decoration: none;
+}
+
+#featured-property {
+  width: 40rem;
+  text-align: center;
+}
+
+#details {
+  background: red;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 40rem;
+}
